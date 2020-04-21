@@ -11,6 +11,7 @@ The model was trained on about 26000 images with a 0.2 split for validation data
 The classification report can be found in the repository by viewing the classification_report.png file.
 
 Since the confusion matrix was a 43x43 matrix, I plotted a heatmap using seaborn's heatmap for better visualisation.
+The actual names and the 43 associated labels are given in signnames.csv.
 
 It can be noticed in the heatmap that the diagonal cells contain most of the elements but they don't seem to have even nearly the same number of elements. That is because the dataset was pretty uneven (not the same number of test images for all classes). We can visualise this by plotting a histogram of the testing data based on class. I leave this task to the readers.
 
